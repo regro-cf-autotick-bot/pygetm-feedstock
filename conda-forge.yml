@@ -7,7 +7,6 @@ github:
 provider:
   osx_arm64: default
 test: native_and_emulated
-azure:
-  settings_win:
-    variables:
-      SET_PAGEFILE: "True"
+workflow_settings:
+  pagefile_size:
+    - value: 16
