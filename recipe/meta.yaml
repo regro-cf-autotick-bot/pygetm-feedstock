@@ -37,7 +37,7 @@ requirements:
     - pip
     - setuptools
     - numpy
-    - libpython                  # [win]
+    - distutils-activate-mingw   # [win]
   run:
     - python
     - pyyaml
